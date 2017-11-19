@@ -1195,7 +1195,7 @@ Note: This function is only supported for [Int|Long|Byte]Tensors
 
 Performs bitwise `or` operation on all elements in the `Tensor` by the given `value`.
 
-`z = torch.bitor(x, value)` will return a new `Tensor` with the result of `x | value`.
+`z = torch.bitor(x, value)` will return a new `Tensor` with the result of `x & value`.
 
 `torch.bitor(z, x, value)` will put the result of `x | value` in `z`.
 
