@@ -373,7 +373,7 @@ Returns a clone of a tensor. The memory is copied.
 
 ```lua
 i = 0
-x = torch.Tensor(5):apply(function(x)
+x = torch.Tensor(5):apply(function()
   i = i + 1
   return i
 end)
